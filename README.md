@@ -3,11 +3,30 @@
 ## Creación de Servicio Web y Consumo vía VueJS
 
 ### Revisar
-- Ejemplo de servicios web con Django y Django-Rest [app-django/ejemplo3]
-- Ejemplo de consumo de servicios web desde VueJS [app-consumo-2]
+* Ejemplo de servicios web con Django y Django-Rest [app-django/ejemplo3]
+* Ejemplo de consumo de servicios web desde VueJS [app-consumo-2]
+	* Considerar para la aplicación VueJS
+
+```
+Se trabajará con al versión: v16.16.0
+Instalar la versión mediante:
+
+nvm install v16.16.0
+
+Usar la versión:
+
+nvm use v16.16.0
+
+Dentro de la carpeta de **app-consumo-2**, usar
+
+npm install
+npm run serve
+
+```
 
 ### Ejemplos
 * Usando curl
+
 ```
 
 curl -H 'Accept: application/json; indent=4' -u user:pass http://127.0.0.1:8000/users/

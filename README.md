@@ -51,19 +51,19 @@ print(r)
 
 Dadas dos entidades:
 
-* Edificio:
+* Propietario:
 	* nombre
-	* dirección
-	* ciudad
-	* tipo [residencial, comercial]
+	* apellido
+	* edad
+	* nacionalidad [ecuatoriana, peruana, colombiana]
 
 * Departamento
-	* nombre completo del propietario
 	* costo del departamento
 	* número de cuartos
-	* edificio
+	* número de baños
+	* valor de alícuota
 
-Nota: Un departamento pertenece a un edificio
+Nota: Un departamento pertenece a un Propietario
 
 ### Tecnologías y herramientas:
 
@@ -81,5 +81,5 @@ Nota: Un departamento pertenece a un edificio
 - Generar el modelo de la aplicación usando las entidades descritas.
 - Activar la interfaz de administración de la aplicación de Django.
 - Crear una aplicación en VueJS (en el directorio [desarrollo/proyecto-vuejs])
-	* Que permita listar, editar, eliminar y crear Edificios, haciendo uso de los servicios web creados en el proyecto de Django.
+	* Que permita listar, editar, eliminar y crear Propietarios, haciendo uso de los servicios web creados en el proyecto de Django.
 	* Que permita listar, editar, eliminar y crear Departamentos, haciendo uso de los servicios web creados en el proyecto de Django.
